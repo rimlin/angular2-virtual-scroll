@@ -205,7 +205,7 @@ __decorate([
 __decorate([
     core_1.HostListener('scroll'),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Event]),
+    __metadata("design:paramtypes", []),
     __metadata("design:returntype", void 0)
 ], VirtualScrollComponent.prototype, "onScroll", null);
 VirtualScrollComponent = __decorate([

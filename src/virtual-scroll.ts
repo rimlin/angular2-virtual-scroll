@@ -93,7 +93,7 @@ export class VirtualScrollComponent implements OnInit, OnChanges {
   constructor(private element: ElementRef, private renderer: Renderer) { }
 
   @HostListener('scroll')
-  onScroll(e: Event) {
+  onScroll(e: any) {
     this.refresh();
   }
 
